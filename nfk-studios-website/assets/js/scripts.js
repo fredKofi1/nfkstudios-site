@@ -264,3 +264,15 @@ interactiveEls.forEach(el => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const menuItems = document.getElementById('menuItems');
+
+    // Toggle terms menu
+    hamburger.addEventListener('click', () => {
+        const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !isExpanded);
+        menuItems.classList.toggle('active');
+    });
+});
