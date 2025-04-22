@@ -1,8 +1,0 @@
-# Image Directory
-
-<!-- This directory is intended for storing image files that will be used throughout the website, such as artwork, logos, or background images. -->
-
-<!-- Example of referencing an image in Markdown -->
-![Description of the image][nfkLogoLink]
-
-[nfkLogoLink]: images/NFKLOGO.JPG

@@ -1,6 +1,35 @@
 {
     "cSpell.words": [
+        "apos",
+        "Bingbot",
+        "CHACHA",
+        "checkmark",
+        "Embedder",
+        "enctype",
+        "fontobject",
+        "geolocation",
+        "googlebot",
+        "iarc",
+        "keepalive",
+        "keyout",
+        "longtask",
+        "morphism",
+        "newkey",
+        "nfkstudiossite",
+        "nosniff",
         "Nunekpeku",
-        "videography"
+        "opentype",
+        "SAMEORIGIN",
+        "selfsigned",
+        "ttfb",
+        "vcard",
+        "videography",
+        "webp",
+        "xloc"
+    ],
+    "DockerRun.DisableDockerrc": true,
+    "DockerRun.Containers": [
+        "487cddddb489",
+        "32a5f7fa648f"
     ]
 }
