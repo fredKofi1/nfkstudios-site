@@ -1,15 +1,27 @@
 {
+    // Custom dictionary words for the Code Spell Checker extension
     "cSpell.words": [
         "apos",
         "Bingbot",
         "CHACHA",
         "checkmark",
+        "contentinfo",
+        "dbaeumer",
+        "describedby",
+        "Downld",
+        "eamodio",
         "Embedder",
         "enctype",
+        "esbenp",
         "fontobject",
+        "formulahendry",
         "geolocation",
+        "Glassmorphism",
         "googlebot",
+        "haspopup",
+        "healthcheck",
         "iarc",
+        "Initialisation",
         "keepalive",
         "keyout",
         "longtask",
@@ -17,28 +29,39 @@
         "newkey",
         "nfkstudiossite",
         "nosniff",
+        "novalidate",
         "Nunekpeku",
         "opentype",
         "SAMEORIGIN",
         "selfsigned",
+        "spacebar",
         "ttfb",
+        "unregistration",
         "vcard",
         "videography",
         "webp",
         "xloc"
     ],
+
+    // DockerRun extension setting - Disables loading of .dockerrc file
     "DockerRun.DisableDockerrc": true,
-    "DockerRun.Containers": [
-        "487cddddb489",
-        "32a5f7fa648f"
-    ],
+
+    // "DockerRun.Containers": [ ... ]
+    // Removed this setting as container IDs are specific to local environments
+    // and should not typically be shared in project settings.
+
+    // --- Python Testing Settings ---
+    // Note: Remove these settings if Python testing is not part of this project.
     "python.testing.unittestArgs": [
-        "-v",
-        "-s",
+        "-v", // Verbose output
+        "-s", // Directory to start discovery (current directory)
         ".",
-        "-p",
+        "-p", // Pattern for test files
         "*test.py"
     ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.pytestEnabled": false, // Explicitly disable Pytest
+    "python.testing.unittestEnabled": true,
+    "DockerRun.Containers": [
+        "32a5f7fa648f"
+    ] // Explicitly enable Unittest
 }
